@@ -3,10 +3,10 @@ apply plugin: 'com.android.application'
 android {
     signingConfigs {
         config {
-            keyAlias 'ocrize'
-            keyPassword 'ocrize2015'
-            storeFile file('/Users/Citrixer/Swords/Key_Store/Android_Key_Store.jks')
-            storePassword 'qinwangsaoliuhe'
+            keyAlias '*****'
+            keyPassword '*****'
+            storeFile file('*****')
+            storePassword '*****'
         }
     }
     compileSdkVersion 21
