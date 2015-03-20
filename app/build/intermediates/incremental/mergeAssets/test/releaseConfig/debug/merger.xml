@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/Citrixer/AndroidStudioProjects/ocrize/app/src/androidTest/assets"/></dataSet><dataSet config="releaseConfig"><source path="/Users/Citrixer/AndroidStudioProjects/ocrize/app/src/androidTestReleaseConfig/assets"/></dataSet></merger>

@@ -1,0 +1,6 @@
+/Users/Citrixer/AndroidStudioProjects/ocrize/app/build/intermediates/classes/releaseConfig/release
+/Users/Citrixer/AndroidStudioProjects/ocrize/app/build/intermediates/pre-dexed/releaseConfig/release/support-annotations-21.0.3-4d246bdc6550a6fa853b008b2b352f4cea53d93a.jar
+/Users/Citrixer/AndroidStudioProjects/ocrize/app/build/intermediates/pre-dexed/releaseConfig/release/classes-18d583f99360c28bf1aa0999f862dff74991397d.jar
+/Users/Citrixer/AndroidStudioProjects/ocrize/app/build/intermediates/pre-dexed/releaseConfig/release/internal_impl-21.0.3-bddb3809d56a01f9b985b601ca738907ba2ae44f.jar
+/Users/Citrixer/AndroidStudioProjects/ocrize/app/build/intermediates/pre-dexed/releaseConfig/release/classes-bdf5d682346527c95ffd96f446d50754785b8d69.jar
+/Users/Citrixer/AndroidStudioProjects/ocrize/app/build/intermediates/pre-dexed/releaseConfig/release/classes-44d2369304c3fd23216a5459375c84320c398d6a.jar

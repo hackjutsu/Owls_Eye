@@ -1,0 +1,40 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'ocrize'
+            keyPassword 'ocrize2015'
+            storeFile file('/Users/Citrixer/Swords/Key_Store/Android_Key_Store.jks')
+            storePassword 'qinwangsaoliuhe'
+        }
+    }
+    compileSdkVersion 21
+    buildToolsVersion "22.0.0"
+    defaultConfig {
+        applicationId "com.owlscoffeehouse.ocrize"
+        minSdkVersion 16
+        targetSdkVersion 21
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            signingConfig signingConfigs.config
+            zipAlignEnabled true
+        }
+    }
+    productFlavors {
+        releaseConfig {
+            minSdkVersion 15
+            signingConfig signingConfigs.config
+            targetSdkVersion 22
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:21.0.3'
+    compile 'com.android.support:appcompat-v7:21.0.3'
+    compile files('libs/classes.jar')
+}
